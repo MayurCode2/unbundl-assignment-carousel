@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <h2>CSS Autoplay Carousel</h2>
+      <div id="pSlider">
+        <ol id="slider-container" dir="ltr">
+          <li id="slide_1" class="li_slide">
+            <div class="slide-snapper"></div>
+            <a class="prev_slide" href="#slide_4"></a>
+            <a class="next_slide" href="#slide_2"></a>
+          </li>
+          <li id="slide_2" class="li_slide">
+            <div class="slide-snapper"></div>
+            <a class="prev_slide" href="#slide_1"></a>
+            <a class="next_slide" href="#slide_3"></a>
+          </li>
+          <li id="slide_3" class="li_slide">
+            <div class="slide-snapper"></div>
+            <a class="prev_slide" href="#slide_2"></a>
+            <a class="next_slide" href="#slide_4"></a>
+          </li>
+          <li id="slide_4" class="li_slide">
+            <div class="slide-snapper"></div>
+            <a class="prev_slide" href="#slide_3"></a>
+            <a class="next_slide" href="#slide_1"></a>
+          </li>
+        </ol>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
